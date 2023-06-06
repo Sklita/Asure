@@ -1,7 +1,6 @@
 // 4NI20CS104 - SKLITA BUTHELLO
 #include <iostream>
 #include <utility> 
- 
 using namespace std;
 /* return the gcd of a and b followed by the pair x and y of 
   equation ax + by = gcd(a,b)
@@ -26,13 +25,10 @@ pair<int, pair<int, int> > extendedEuclid(int a, int b)
     }
     return make_pair(b, make_pair(xLast, yLast));
 }
- 
 int modInverse(int a, int m) 
 {
     return (extendedEuclid(a, m).second.first + m) % m;
 }
- 
-//Main
 int main()
 {
     int a, m;
