@@ -70,9 +70,6 @@ int main() {
     return 0;
 }
 ```
-
 In this implementation, the `encrypt` function takes a message, along with the values of 'a' and 'b', and returns the encrypted message. The `decrypt` function takes an encrypted message, along with the values of 'a' and 'b', and returns the decrypted message.
-
 The main function prompts the user to enter a message, the values of 'a' and 'b', and then performs encryption and decryption on the message using the provided values. Finally, it displays the encrypted and decrypted messages.
-
 Please note that the values of 'a' must be coprime with 26 for the decryption to work correctly. Otherwise, the program will display an error message.
